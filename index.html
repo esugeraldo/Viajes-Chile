@@ -73,13 +73,13 @@
         </button>
       </div>
     </section>
-
+<!--Seccion Quienes somos-->
       <section id="seccion2">
           <h2 class="border-bottom border-white">¿QUIÉNES SOMOS?</h2>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-lg-4">
-                <div class="fondo-iconos text-center p-1 my-2">
+                <div class="fondo-calipso text-center p-1 my-2">
                   <i class="fas fa-plane fa-2x"></i>
                 </div>
                 <div class="my-3 d-none d-xs-block d-sm-block">
@@ -92,12 +92,12 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed molis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies seme u massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.
                   </p>
                 </div>
-                <div class="fondo-iconos text-center p-1 my-2">
+                <div class="fondo-calipso text-center p-1 my-2">
                   <i class="fas fa-mountain fa-2x"></i>
                 </div>
               </div>
               <div class="col-sm-12 col-lg-4">
-                <div class="fondo-iconos text-center p-1 my-2">
+                <div class="fondo-calipso text-center p-1 my-2">
                   <i class="fas fa-route fa-2x"></i>
                 </div>
                 <div class="my-3 d-none d-xs-block d-sm-block">
@@ -107,65 +107,60 @@
             </div>
           </div>
       </section>
-
+<!--Seccion Destacados-->
       <section id="seccion3">
-
           <h2 class="border-bottom border-white">DESTACADOS</h2>
-
           <div class="card-group container">
             <div class="card mx-2">
-              <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-              <div class="card-body fondo-iconos">
+              <img src="assets/img/card1.jpg" class="card-img-top" height="52%" alt="...">
+              <div class="card-body fondo-calipso">
                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="card mx-2">
               <img src="assets/img/card2.jpg" class="card-img-top" height="52%" alt="...">
-              <div class="card-body fondo-iconos">
+              <div class="card-body fondo-calipso">
                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="card mx-2">
-              <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-              <div class="card-body fondo-iconos">
+              <img src="assets/img/card3.jpg" class="card-img-top" height="52%" alt="...">
+              <div class="card-body fondo-calipso">
                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="card mx-2">
-              <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-              <div class="card-body fondo-iconos">
+              <img src="assets/img/card4.jpg" class="card-img-top" height="52%" alt="...">
+              <div class="card-body fondo-calipso">
                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
           </div>
       </section>
-
+<!--Seccion Contacto-->
       <section id="seccion4">
-          <h2>
-              CONTACTO
-          </h2>
-
-          <form class="container">
+          <h2 class="border-bottom border-white">CONTACTO</h2>
+          <form class="container" id="formulario">
             <div class="form-group">
-              <label for="nombre">Nombre</label>
+              <label class="my-2" for="nombre">Nombre</label>
               <input type="text" class="form-control" id="nombre">
             </div>
             <div class="form-group">
-              <label for="asunto">Asunto</label>
+              <label class="my-3" for="asunto">Asunto</label>
               <input type="text" class="form-control" id="asunto">
             </div>
             <div class="form-group py-2">
-                <label for="mensaje">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                <label class="my-2" for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="7"></textarea>
               </div>
-            <button type="submit" class="btn btn-primary p-2">Submit</button>
-            
+            <button id="enviar" type="submit" class="btn btn-primary my-2 fondo-calipso">Enviar</button>
           </form>
       </section>
+<!--Footer-->
     <footer>
     <div class="container">
         <div class="row">
@@ -186,9 +181,7 @@
 
     </div>
     </footer>
-
     </main>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>

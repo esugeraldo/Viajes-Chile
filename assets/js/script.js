@@ -17,3 +17,8 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+$("#enviar").click(function () {
+    alert("El mensaje fue enviado con exito, gracias por contactarnos.")
+    formulario.reset();
+})
