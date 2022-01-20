@@ -1,6 +1,7 @@
 # Viajes-Chile
 Prueba Desarrollo Front End
-Autor: Esteban Geraldo
+
+Autor: Esteban Geraldo <br>
 
 Pagina Viajes Chile
 
